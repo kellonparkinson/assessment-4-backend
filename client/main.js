@@ -74,7 +74,7 @@ const postDaysWorked = (event) => {
 //deletes the goal from the array and from the page
 const deleteGoal = (id) => {
     axios
-    .delete(`${baseURL}/goal/${id}`)
+    .delete(`${baseURL}/api/goal/${id}`)
     .then((res) => {
         goalContainer.innerHTML = 'No goals set. Refresh to set new goal.'
     })
