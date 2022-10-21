@@ -1,0 +1,32 @@
+* {
+    margin: 10px
+}
+
+#magicBall {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 125px;
+    background-color: black;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    text-align: center;
+    font-size: x-large;
+}
+
+#ball {
+    width: 80%;
+}

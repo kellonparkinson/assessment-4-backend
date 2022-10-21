@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css">
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Feeling fortunate?</button>
+
+    <div id="magicBall">
+      <form id="magicForm">
+        <label for="ball">
+          Magic 8 Ball
+        <input id="ball" placeholder="Ask a yes or no question">
+        </label>
+        <button>Ask the Magic 8 Ball</button>
+      </form>
+    </div>
+
+    <form id="numberForm">
+      <div id="numbersContainer">
+        <p>Set a Goal: days worked per week</p>
+        <div id="radioContainer">
+          <label for="one">
+            <input id="one" type="radio" name="numbers" value="1">
+            1
+          </label>
+          <label for="two">
+            <input id="two" type="radio" name="numbers" value="2">
+            2
+          </label>
+          <label for="three">
+            <input id="three" type="radio" name="numbers" value="3">
+            3
+          </label>
+          <label for="four">
+            <input id="four" type="radio" name="numbers" value="4">
+            4
+          </label>
+          <label for="five">
+            <input id="five" type="radio" name="numbers" value="5">
+            5
+          </label>
+          <label for="six">
+            <input id="six" type="radio" name="numbers" value="6">
+            6
+          </label>
+          <label for="seven">
+            <input id="seven" type="radio" name="numbers" value="7">
+            7
+          </label>
+        </div>
+      </div>
+      <button>Submit number of days</button>
+    </form>
+
+    <div id="goal-container">
+      
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
